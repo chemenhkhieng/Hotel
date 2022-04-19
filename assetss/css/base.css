@@ -1,0 +1,53 @@
+:root {
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+    --primary-color: #EE4D2D;
+    --border-color:#dbdbdb;
+    --gold-color: #ffce3e;
+    --blue-color:#3fd0d4;
+    --gray-color:#a9a9a9;
+    /* with */
+
+}
+*{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+
+}
+
+.grid{
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grid-column-2-5{
+    width: 20%;
+    margin-right: 20px;
+}
+
+.grid-column-2-4{
+    width: 25%;
+    margin-right: 20px;
+}
+
+
+
+.clear{
+    clear: both;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
